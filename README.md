@@ -1,5 +1,5 @@
 # Desafio-Python-Asset
-Atividade Python:
+<strong>Atividade Python:</strong>
 
 Crie um código que entre no site https://crmpb.org.br/busca-medicos/ , clique no botão enviar da pesquisa e crie uma tabela com os primeiros 10 médicos, com os parametros já definidos na busca e salve em .csv. (Ex.: Colunas: nome do médico; Especialidade; Telefone)
 
