@@ -5,7 +5,9 @@ Crie um código que entre no site https://crmpb.org.br/busca-medicos/ , clique n
 
 <strong>Detalhes:</strong>
 Como o código utiliza a biblioteca Selenium, será necessária a instalação do geckodrive(Firefox) e/ou ChromeDriver(Google Chrome). Os links para download seguem abaixo:
+
 GoogleDriver: https://chromedriver.chromium.org/
+
 Geckdriver: https://github.com/mozilla/geckodriver/releases
 
 <strong>Explicação:</strong>
