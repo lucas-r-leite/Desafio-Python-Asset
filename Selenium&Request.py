@@ -79,7 +79,7 @@ for medico in medicos[:10]:
 
     df = df.append({"Nome do médico": nome, "CRM":crm, "Especialidade":especialidade ,"Situação":situacao, "Inscrição outro estado":inscricao,"Endereço": endereco, "Telefone": telefone}, ignore_index=True)
 
-df.to_csv("Desafio_Asset_Python/medicos.csv", index=False, encoding='UTF-8')
+df.to_csv("medicos.csv", index=False, encoding='UTF-8')
 
 #Fechando navegador e encerrando o Selenium
 driver.close()
