@@ -13,6 +13,14 @@ headers = {
 
 #Abrindo do Navegador e entrando no site
 driver = webdriver.Firefox()
+
+#driver = webdriver.Chrome() #Se você instalou o executável
+
+#Caso não tenha instalado o ChromeDrive, apenas realizado o Download
+#chromedriver_path = 'coloque o caminho do executável aqui'
+#driver = webdriver.Chrome(executable_path=chomedriver)
+
+
 driver.get("https://crmpb.org.br/busca-medicos/")
 
 #clicando no botão da LGPD
@@ -30,7 +38,7 @@ wait.until(EC.presence_of_all_elements_located((By.XPATH, '//*[@id="content"]/se
 time.sleep(3)
 
 
-
+#Atualizando o html 
 html = driver.page_source
 soup = BeautifulSoup(html, 'html.parser')
 medicos = soup.find_all('div',class_='card-body')
